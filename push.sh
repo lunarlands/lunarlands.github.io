@@ -1,3 +1,3 @@
 sudo git add .
 sudo git commit -m "VitePress"
-sudo git push -uf github main
+sudo git push -uf origin main
