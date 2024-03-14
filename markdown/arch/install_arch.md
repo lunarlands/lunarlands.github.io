@@ -190,6 +190,12 @@ vim /etc/pacman.conf
 Server = https://mirrors.ustc.edu.cn/archlinuxcn/$arch
 # ESC + :wq
 
+rm -rf /etc/pacman.d/mirrorlist
+nano /etc/pacman.d/mirrorlist
+# 加入以下内容
+Server = https://mirrors.ustc.edu.cn/archlinux/$repo/os/$arch
+# Ctrl+X, Y, Enter保存
+
 pacman -Syyu
 ```
 
