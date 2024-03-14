@@ -4,6 +4,10 @@ export default defineConfig({
   title: "Republic Of Lunar",
   description: "",
   themeConfig: {
+    editLink: {
+      pattern: 'https://github.com/lunarlands/lunarlands.github.io/edit/main/:path',
+      text: '在 Github 上编辑本页'
+    },
     search: {
       provider: "local",
       options: {
