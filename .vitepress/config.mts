@@ -7,19 +7,21 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '主页', link: '/' },
+      { text: 'Arch Linux', link: '/markdown/arch/arch.md' },
     ],
     sidebar: [
       {
         items: [
           {
-            text: '前言',
+            text: 'Chapter I',
             items: [
               { text: '欢迎', link: '/markdown/welcome.md' }
             ]
           },
           {
-            text: 'Arch Linux',
+            text: 'Chapter II',
             items: [
+              { text: 'Arch Linux', link: '/markdown/arch/arch.md' },
               { text: 'Arch Linux是什么', link: '/markdown/arch/what_is_arch.md' },
               { text: '安装Arch Linux', link: '/markdown/arch/install_arch.md' },
             ]
