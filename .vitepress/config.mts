@@ -39,7 +39,7 @@ export default defineConfig({
           {
             text: 'Chapter I',
             items: [
-              { text: '欢迎', link: '/markdown/welcome.md' }
+              { text: '欢迎', link: '/markdown/welcome.md' },
             ]
           },
           {
