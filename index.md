@@ -3,8 +3,8 @@ layout: home
 
 hero:
   name: "Republic Of Lunar"
-  text: ""
-  image: 
+  text: 
+  image:  
   tagline: 欢迎来到我的小窝 ꒰ঌ( ⌯' '⌯)໒꒱
   actions:
     - theme: brand
