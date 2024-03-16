@@ -4,7 +4,7 @@ layout: home
 hero:
   name: "Arch Linux"
   text: 
-  image:  /hero.svg
+  image: "https://raw.githubusercontent.com/lunarlands/lunarlands.github.io/main/hero.svg"
   tagline: 一起来用Arch Linux吧！
   actions: 
     - theme: brand
