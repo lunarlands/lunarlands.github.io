@@ -204,6 +204,4 @@ pacman -Syyu
 ```shell
 pacman -S plasma konsole dolphin xorg ark neofetch sddm
 sudo systemctl enable sddm
-
-sudo systemctl enable sddm
 ```
