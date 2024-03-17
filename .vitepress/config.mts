@@ -46,6 +46,7 @@ export default defineConfig({
             text: 'Chapter II',
             items: [
               { text: 'Arch Linux是什么', link: '/markdown/arch/what_is_arch.md' },
+              { text: 'Arch Linux适合我吗？', link: '/markdown/arch/arch_yes.md' },
               { text: '安装Arch Linux', link: '/markdown/arch/install_arch.md' },
               { text: '安装输入法', link: '/markdown/arch/input.md' },
               { text: 'Shell美化', link: '/markdown/arch/shell.md' },
