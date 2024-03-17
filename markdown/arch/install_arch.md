@@ -103,7 +103,7 @@ mount /dev/{efi} /mnt/boot/efi --mkdir
 
 ```shell
 pacman -Sy archlinux-keyring
-pacstrap /mnt base base-devel linux linux-firmware btrfs-progs networkmanager vim nano sudo
+pacstrap /mnt base base-devel linux linux-firmware btrfs-progs networkmanager vim nano sudo iwd
 ```
 
    II. 写入挂载信息
