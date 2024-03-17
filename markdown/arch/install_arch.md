@@ -94,6 +94,7 @@ umount /mnt
 mount -t btrfs -o subvol=/@,compress=zstd /dev/sdxn /mnt
 mount -t btrfs -o subvol=/@home,compress=zstd /dev/sdxn /mnt/home --mkdir
 mount -t btrfs -o subvol=/@boot,compress=zstd /dev/sdxn /mnt/boot --mkdir
+mount /dev/{efi} /mnt/boot/efi --mkdir
 ```
 
 ## IV. 安装系统
