@@ -103,7 +103,7 @@ mount /dev/{efi} /mnt/boot/efi --mkdir
 
 ```shell
 pacman -Sy archlinux-keyring
-pacstrap /mnt base base-devel linux linux-firmware btrfs-progs networkmanager vim nano sudo iwd
+pacstrap /mnt base base-devel linux linux-firmware btrfs-progs networkmanager vim nano sudo iwd net-tools
 ```
 
    II. 写入挂载信息
@@ -175,7 +175,7 @@ reboot                   # 重启
 
 ```shell
 systemctl enable --now NetworkManager # 设置开机自启并启动 NetworkManager
-# 请看前面重新联网
+nmtui # 联网 (第二个 -> 选择网络名 -> 输入密码 -> 退出)
 # 用户
 
 useradd -m -G wheel -s /bin/bash {yourname}
