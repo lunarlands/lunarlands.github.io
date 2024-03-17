@@ -48,6 +48,7 @@ export default defineConfig({
               { text: 'Arch Linux是什么', link: '/markdown/arch/what_is_arch.md' },
               { text: '安装Arch Linux', link: '/markdown/arch/install_arch.md' },
               { text: '安装输入法', link: '/markdown/arch/input.md' },
+              { text: 'Shell美化', link: '/markdown/arch/shell.md' },
             ]
           },
         ],
