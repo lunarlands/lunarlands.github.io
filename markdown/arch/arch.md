@@ -4,7 +4,7 @@ layout: home
 hero:
   name: "Arch Linux"
   text: 
-  image: "https://raw.githubusercontent.com/lunarlands/lunarlands.github.io/main/hero.svg"
+  image: "https://raw.githubusercontent.com/lunarlands/lunarlands.github.io/main/markdown/arch/hero.svg"
   tagline: 一起来用Arch Linux吧！
   actions: 
     - theme: brand
@@ -13,6 +13,7 @@ hero:
     - theme: alt
       text: 下载镜像
       link: "https://mirrors.tuna.tsinghua.edu.cn/archlinux/iso/latest/archlinux-x86_64.iso"
+      
 features:
   - title: 核心原则
     icon: 核
