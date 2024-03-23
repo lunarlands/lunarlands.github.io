@@ -13,7 +13,7 @@ hero:
 
 features:
   - title: 欲买桂花同载酒，终不似，少年游。
-    icon: ⏾
+    icon: α
     details: 刘过《唐多令•芦叶满汀州》
   - title: 人生自是有情痴，此恨不关风与月。
     icon: ⍋
