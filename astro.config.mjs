@@ -38,13 +38,9 @@ export default defineConfig({
               label: "Chapter III",
               autogenerate: { directory: "arch" },
             },
-            {
-              label: "Chapter IV",
-              badge: "Updating",
-              autogenerate: { directory: "greek" },
-            },
           ],
         },
+
       ],
     }),
   ],
